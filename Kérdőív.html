@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <title>Táblázat/kérdőív</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stilus.css" title="normal">
+  <script src="szkriptek/ligthmode.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <h1 id="eleje">Én, és a legkedvesebb hobbim</h1>
+    <h2><i>Avagy mivel töltöm a szabadidőm, ha épp nem egy sikeres vizsgáért imádkozom</i></h2>
+    <br>
+    <button class="nap" onclick="myFunction()">Toggle light mode</button>
+    <nav>
+      <ul>
+        <li><a class="gomb" href="Index.html"><span>Kezdőlap</span></a></li>
+        <li><a class="gomb" href="Valorant.html"><span>Valorant</span></a></li>
+        <li><a class="gomb" href="xhtml_Overwatch.html"><span>Overwatch</span></a></li>
+        <li><a class="gomb" href="WoW.html"><span>WoW</span></a></li>
+        <li><a class="gomb" href="#"><span>Kérdőív</span></a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+  <br>
+  <section>
+    <h3>Záró gondolatok, kérdőív</h3>
+    <p class="hasáb" style="margin-right: 5%;">Szóval ez a három játék lenne az, amikhez a legkedvesebb emlékeim
+      kötődnek, és
+      amikkel a legszívesebben
+      töltöm a szabadidőmet. Nagyon remélem, hogy ez a közeljövőben sem fog változni, legfeljebb pozitív irányba.</p>
+    <p class="hasáb" style="margin-right: 5%;">
+      Zárásképpen egy táblázatban szeretném értékelni 1 és 10 között a játékok
+      különböző aspektusait, valamint
+      egy kisebb közvéleménykutatást is létrehoztam, melyben arra lennék kíváncsi, hogy ti, az olvasók, többek között
+      milyen szokásokkal rendelkeztek a játékok terén, mikkel szeretitek elütni a szabadidőtöket és mennyi idő számít
+      reálisnak?
+  </section>
+  <p class="hasáb">
+    <strong>
+      A kérdőív kitöltése teljesen anonim és opcionális, az utolsó kérdés kivételével egyikre sem kötelező válaszolni.
+    </strong>
+  </p>
+
+  <article>
+    <h3>Táblázat</h3>
+    <table id="ertekeles">
+
+      <caption>
+        <strong>Kiértékelő táblázat</strong>
+        <details>
+          <summary>Összefoglaló</summary>
+          <p>A táblázat 4 oszlopból áll <i>(szempontok, Valorant, WoW, Overwatch)</i>, az egyes sorokban pedig az adott
+            szemponthoz tartozó értékelés és vélemény olvasható.</p>
+        </details>
+      </caption>
+
+      <tr>
+        <th>szempontok</th>
+        <th lang="en">WoW</th>
+        <th lang="eu">Valorant</th>
+        <th lang="en">Overwatch</th>
+      </tr>
+      <tr>
+        <td><i>ár/érték arány</i></td>
+        <td>6 <br><br>Külön kell fizetni a kiegészítőkért, valamint havi díja is van a játéknak, igaz a havidíjat
+          játékbeli „aranyból” is lehet finanszírozni.</td>
+        <td>10 <br><br>A játék ingyenesen játszható, csak fegyver kinézeteket lehet vásárolni.</td>
+        <td>9 <br><br>A játékot egyszer kell megvenni, utána minden elérhető.</td>
+      </tr>
+      <tr>
+        <td><i>egyediség</i></td>
+        <td>8 <br><br>Műfaját tekintve akad hasonló játék, de vetélytársa nincsen.</td>
+        <td>7 <br><br>Sok hasonló játék van a piacon, de csak nagyon kevés lett ilyen sikeres.</td>
+        <td>10 <br><br>Nincs más, ehhez hasonló játék.</td>
+      </tr>
+      <tr>
+        <td><i>grafika</i></td>
+        <td>9 <br><br>A zónák többsége teljesen magával ragadó</td>
+        <td>8 <br><br>Kissé rajzfilmes, de jól illik a játék stílusához.</td>
+        <td>8 <br><br>Mindenképpen egyedi, a hősökhöz jól illeszkedik.</td>
+      </tr>
+      <tr>
+        <td><i>tartalom</i></td>
+        <td>10 <br><br>Végtelen mennyiségben.</td>
+        <td>7 <br><br>Az ügynökök változatossá teszik, de egy idő után kissé repetitív.</td>
+        <td>9 <br><br>A rengeteg hős és pálya miatt nagyon élvezhető.</td>
+      </tr>
+      <tr>
+        <td><i>nehézség</i></td>
+        <td>3 <br><br>A rengeteg játékmód miatt a felhasználó dönti el, hogy mennyire szeretné komolyan venni a játékot.
+        </td>
+        <td>8 <br><br>Nem kevés tapasztalatra van szükség, hogy a játék élvezhető legyen.</td>
+        <td>6 <br><br>Vannak könnyebb és nehezebb hősök, de idő kell a megismerésükhöz.</td>
+      </tr>
+      <tr>
+        <td><i>történet</i></td>
+        <td>10 <br><br>Nagyon hosszú, a mai napig befejezetlen történetszálai is vannak.</td>
+        <td>6 <br><br>Nem helyeztek rá túl nagy hangsúlyt.</td>
+        <td>8 <br><br>Minden hős egyedi háttértörténettel rendelkezik.</td>
+      </tr>
+    </table>
+  </article>
+  <br>
+
+  <h3>Kérdőív</h3>
+
+  <form name="kerdoiv" enctype="text/plain" action="mailto:hzalan007@gmail.com" method="post">
+    <fieldset>
+      <legend>1. Milyen típusú játékokkal szeret játszani? <i>(több is megjelölhető)</i></legend>
+      <input type="checkbox" name="stilus" id="s1" value="Stratégiai"> <label for="s1">Stratégiai</label>
+      <br>
+      <input type="checkbox" name="stilus" id="s2" value="Lövöldözős"> <label for="s2">Lövöldözős</label>
+      <br>
+      <input type="checkbox" name="stilus" id="s3" value="Szerepjáték"> <label for="s3">Szerepjáték</label>
+      <br>
+      <input type="checkbox" name="stilus" id="s4" value="Történet alapú"> <label for="s4">Történet alapú</label>
+      <br>
+      <label for="s5">Egyéb:</label> <input maxlength="15" type="text" placeholder="A válaszom" name="stilus" id="s5" size="50">
+    </fieldset>
+    <fieldset>
+      <legend>2. Naponta hány számítógépezéssel eltöltött óra számít ön szerint még elfogadhatónak?</legend>
+      <input type="radio" name="ido" id="i1" value="1-2"> <label for="i1">1-2</label>
+      <br>
+      <input type="radio" name="ido" id="i2" value="3-4"> <label for="i2">3-4</label>
+      <br>
+      <input type="radio" name="ido" id="i3" value="5-6"> <label for="i3">5-6</label>
+      <br>
+      <input type="radio" name="ido" id="i4" value="6+"> <label for="i4">6+</label>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>3. Mennyire számít egy játék grafikája?</legend>
+      <input type="radio" name="graf" id="g1" value="Nagyon"> <label for="g1">Nagyon</label>
+      <br>
+      <input type="radio" name="graf" id="g2" value="Eléggé"> <label for="g2">Eléggé</label>
+      <br>
+      <input type="radio" name="graf" id="g3" value="Valamennyire"> <label for="g3">Valamennyire</label>
+      <br>
+      <input type="radio" name="graf" id="g4" value="Kicsit"> <label for="g4">Kicsit</label>
+      <br>
+      <input type="radio" name="graf" id="g5" value="Számomra nem lényeg"> <label for="g5">Számomra nem lényeg</label>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>4. Mennyit hajlandó kifizetni egy játékért?</legend>
+      <input type="radio" name="fizet" id="f1" value="Ha nagyon tetszik szinte bármennyit"> <label for="f1">Ha nagyon
+        tetszik szinte bármennyit</label>
+      <br>
+      <input type="radio" name="fizet" id="f2" value="15 000Ft maximum"> <label for="f2">15 000Ft maximum</label>
+      <br>
+      <input type="radio" name="fizet" id="f3" value="10 000 - 15 000Ft"> <label for="f3">10 000 - 15 000Ft</label>
+      <br>
+      <input type="radio" name="fizet" id="f4" value="5000 - 10 000Ft"> <label for="f4">5000 - 10 000Ft</label>
+      <br>
+      <input type="radio" name="fizet" id="f5" value="5000Ft alatt"> <label for="f5">5000Ft alatt</label>
+      <br>
+      <input type="radio" name="fizet" id="f6" value="Nem fizetek játékokért / csak ingyenesekkel játszom"> <label
+        for="f6">Nem fizetek játékokért / csak ingyenesekkel játszom</label>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>5. Melyik cím volt eddig a kedvence, és miért?</legend><textarea maxlength="1000" cols="86" rows="20" name="velemeny"
+        id="kedvenc" placeholder="A válaszom:" required></textarea>
+    </fieldset>
+
+
+    <br>
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+
+  </form>
+
+  <br>
+  <a class="link" id="nemkell" href="#eleje">Vissza a tetejére</a>
+
+  <br>
+  <br>
+  <footer>
+    <p><i>Az oldalt készítette: Horváth Zalán</i></p>
+    <time datetime="2022-05-03">2022. május 03.</time>
+    <br>
+  </footer>
+
+</body>
+
+</html>
